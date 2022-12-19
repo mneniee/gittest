@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    background-image: url(https://phonoteka.org/uploads/posts/2021-06/1623096718_7-phonoteka_org-p-poluprozrachnie-teksturi-krasivo-7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+.container {
+
+    background-blend-mode: darken;
+    background-image: url(https://www.zdorovieinfo.ru/wp-content/uploads/2018/07/shutterstock_579867070.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-color: rgba(255, 0, 0, 0.1);
+
+
+    width: 1200px;
+    height: 600px;
+
+
+
+}
+.items {
+    display: flex;
+    justify-content: space-around;
+}
+.elements {
+    display: flex;
+    margin-top: 45px;
+
+
+}
+.name-site {
+    font-family: 'Comforter Brush', cursive ;
+    font-size: 80px;
+    font-weight: 700;
+    color: white;
+    margin-right: 400px;
+    margin-bottom: 90px;
+
+}
+.item {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-right: 20px;
+    transition: background-color 0.3S linear ;
+    height: 25px;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: 700;
+
+
+}
+.item:hover {
+    background-color: black;
+}
+.name {
+    margin-left: 60px;
+    display: block;
+}
+.name-1 {
+    font-size: 80px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: -20px;
+}
+.name-2 {
+    color: white;
+    font-size: 80px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+
+}
+.name-3 {
+    color: white;
+    max-width: 500px;
+}
+
+
+.container-2 {
+    background-color: #dedfe3;
+    width: 1200px;
+
+
+}
+
+.main-name {
+    padding-top: 60px;
+    padding-left: 120px;
+    padding-bottom: 100px;
+
+}
+
+
+.name-of {
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.name-of span {
+    color: #75180d;
+}
+
+.img-items {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+
+
+}
+.items-main {
+    padding-left: 40px;
+    padding-right: 40px;
+
+    display: block;
+    align-content: center;
+}
+
+.nazvan {
+    font-size: 18px;
+    margin-top: 10px;
+    width: 170px;
+    text-align: center;
+}
+i.fa {
+    font-size: 100px;
+    text-align: center;
+    margin-left: 40px;
+    color: #050721;
+}
+
+.stroka {
+    width: 100%;
+    height: 80px;
+    background-color: #050721;
+    display: flex;
+}
+.name-stroka {
+    color: white;
+    padding-top: 18px;
+    padding-bottom: 15px;
+    padding-left: 70px;
+    margin-right: 100px;
+    width: 850px;
+}
+.but {
+
+
+
+
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+
+
+}
+.but-stroka {
+    text-decoration: none;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    text-transform: uppercase;
+    background-color: brown;
+    border-radius: 10px;
+}
+
+.price {
+    margin-top: 100px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.name-price {
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #050721;
+}
+
+.forms-price {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.price-form-1 {
+
+    background-color: white;
+    width: 250px;
+    height: 350px;
+    margin-right: 60px;
+    box-shadow:5px white;
+    margin-left: 50px;
+
+}
+.price-form-2 {
+
+    background-color: white;
+    height: 350px;
+    margin-right: 60px;
+    box-shadow:5px white;
+    width: 250px;
+
+}
+.price-form-3 {
+
+    background-color: white;
+    height: 350px;
+    margin-right: 60px;
+    box-shadow:5px white;
+    width: 250px;
+
+}
+.zagolovoc {
+    text-align: center;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.lisens {
+    color: #75180d;
+    text-align: center;
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.opicanie {
+    text-align: center;
+    margin-bottom: 7px;
+}
+.opicanie-cherta {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.but-liz {
+    text-align: center;
+
+
+}
+.but-lizmain {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #dedfe3;
+    background-color: #050721;
+    border-radius: 5px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: background-color 0.2s linear;
+
+
+
+}
+.but-lizmain:hover {
+    background-color: #75180d;
+}
+
+.footer {
+    background-color: #050721;
+    height: 130px;
+}
+.items-footer {
+    color: white;
+    display: flex;
+
+    text-transform: uppercase;
+}
+.item-footer {
+    margin-right: 10px;
+    padding-top: 50px;
+
+}
+.item-footer-1 {
+    padding-top: 50px;
+    margin-right: 10px;
+    margin-left: 50px;
+}
+
+.text-footer {
+    font-family: 'Comforter Brush', cursive ;
+    text-transform: lowercase;
+    color: crimson;
+    font-size: 50px;
+    padding-top: 25px;
+    margin-left: 500px;
+
+}
